@@ -19,4 +19,4 @@ Context-window degradation is primarily studied through synthetic and realistic 
   Description: The original controlled-depth single-fact retrieval test — a "needle" fact is inserted at varying depths within a long distractor document. Now considered a necessary but insufficient diagnostic (see RULER's critique).
   Use in this repo's research: Establishes the baseline paradigm that RULER and later benchmarks extend beyond single-fact retrieval toward aggregation and synthesis-relevant tasks.
 
-**Note on scope:** No conventional "training" datasets are listed because the paper's subject — context-window degradation — is an evaluation phenomenon, not a task with a standard supervised dataset. If your own AI-assisted paper is on a topic where labeled training/eval datasets genuinely don't apply, the instruction sheet allows you to state this explicitly (Section 8) — this file does so above.
+**Note on scope:** No conventional "training" datasets are listed because the paper's subject — context-window degradation — is an evaluation phenomenon, not a task with a standard supervised dataset. 
