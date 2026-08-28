@@ -24,4 +24,5 @@ Software libraries relevant to studying, measuring, or mitigating context-window
 
 - **FlashAttention**
   [github.com/Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
+
   An IO-aware exact-attention implementation that reduces the memory/compute cost of the quadratic self-attention operation discussed in Section 2.1 of the paper — a computational prerequisite for practical long-context inference, distinct from (but complementary to) the positional and attentional mitigations discussed in Section 4.
