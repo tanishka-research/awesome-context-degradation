@@ -28,13 +28,13 @@ Persistent gaps in the field include the absence of synthesis-specific evaluatio
 **Context-Window Degradation and Its Impact on Long-Document Research Synthesis**
 *A Review of Positional, Attentional, and Architectural Constraints on Large Language Model Performance over Extended Inputs*
 
-[View Paper](paper/Context_Window_Degradation_Paper.docx)
+[View Paper](paper/context_window_degradation_paper.pdf)
 
 The paper reviews the mechanisms, evidence, and mitigations associated with context-window degradation, with specific attention to implications for long-document research synthesis. It surveys positional-bias studies (Liu et al., 2024), comprehensive long-context benchmarks (RULER, LongBench), and comparative evaluations of RAG vs. long-context architectures, before identifying research gaps and future directions.
 
 ## Citation Integrity Audit
 
-[View Audit](citation-audit/Citation_Integrity_Audit.md)
+[View Audit](citation-audit/Citation_Integrity_Audit.pdf)
 
 Every reference cited in the paper — and every additional paper added to this repository to meet the 20-paper minimum — was independently checked against arXiv, a publisher DOI record, or an official GitHub repository for correct title, authors, year, venue, and a working link, rather than accepted on an AI tool's word alone. All 13 in-paper references verified as genuine and correctly attributed; see the audit for the full verification log and two minor observations.
 
