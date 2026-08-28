@@ -33,6 +33,7 @@ Reference implementations of specific papers and techniques discussed in this re
   Why it's relevant: A concrete, reproducible instance of the positional-encoding-extension mitigation family discussed in Section 4.3.
 
 - **LLMLingua** — [github.com/microsoft/LLMLingua](https://github.com/microsoft/LLMLingua)
+
   What it implements: LLMLingua, LongLLMLingua, and LLMLingua-2 (Jiang et al., 2023–2024; Pan et al., 2024), Microsoft's official prompt-compression codebase.
   
   Why it's relevant: Directly implements the prompt-compression mitigation family from Section 4.4, with reproducible compression-ratio benchmarks.
