@@ -1,0 +1,18 @@
+# large or regenerable files
+models/*.gguf
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+external/
+# added with README v1.0: never commit weights, credentials or raw model outputs that embed passages
+*.gguf
+*.jsonl.gz
+.env
+*.key
+results/raw/
