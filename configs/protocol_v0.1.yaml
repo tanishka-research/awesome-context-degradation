@@ -1,0 +1,35 @@
+# Protocol configuration, version v0.1 (draft). Values are design choices made
+# before any result exists. Changing a value after results are seen is a
+# protocol amendment and must be logged (see README, "Protocol changes").
+
+protocol_version: "v0.1-draft"
+
+seeds:
+  split: 1234          # development / evaluation split
+  replication_split: 4321
+  ordering_o1: 101     # distractor permutation O1
+  ordering_o2: 202     # distractor permutation O2
+  bootstrap: 777
+  model_sampling: 0    # unused under greedy decoding; set for completeness
+
+design:
+  positions: [0, 4, 9, 14, 19]      # 0-based gold index; prompts number documents from 1
+  total_documents: 20
+  dev_questions: 100
+  eval_questions: 300
+  replication_questions: 300
+  max_new_tokens: 100               # original repository default (scripts/get_qa_responses_from_*.py)
+
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  retrieval_file: data/raw/nq-open-contriever-msmarco-retrieved-documents.jsonl.gz
+  model_file: models/REPLACE_WITH_GGUF_FILENAME.gguf   # fill in after listing the repo files
+  results_dir: results
+
+server:                              # llama.cpp llama-server (settings to be confirmed in the pilot)
+  executable: llama-server           # name on PATH, or a full path
+  host: 127.0.0.1
+  port: 8080
+  ctx_size: 4096                     # placeholder; set from measured prompt token counts
+  n_gpu_layers: auto                 # placeholder; set from the pilot

@@ -1,0 +1,69 @@
+{
+  "written_utc": "2026-11-17T09:06:26Z",
+  "tag": "reduced",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "repo_commit": "29b8a6d042ce29abccee3db1a73171a107d7e6af",
+  "mode": "reduced",
+  "positions": [
+    0,
+    9,
+    19
+  ],
+  "orderings": [
+    "O0",
+    "O1"
+  ],
+  "seeds": {
+    "split": 1234,
+    "bootstrap": 777,
+    "O1": 101,
+    "O2": 202
+  },
+  "n_dev": 50,
+  "n_eval": 300,
+  "n_rerun": 100,
+  "max_new_tokens": 100,
+  "template": "qa.prompt for every condition; closedbook_qa.prompt for C1",
+  "split_sha256": "283bf8ec372205fbf2a638bfa56bef7ef23eab5985d1401d22e0403ac02c8296",
+  "code_sha256": {
+    "__init__.py": "40b204689fcdbe5d3f73589b86f243e50605bc4ec929a26d284596b773ff22bb",
+    "data.py": "aabf603b1e24e5bedce11dc17a6c2847484351b1f3c7d2b5988847053efdeabb",
+    "derive.py": "698a1a354fccf9d75ca03cb02c0a128d2d55eb21a9b27125a42f4bc9f0e17428",
+    "evaluate.py": "7debb75080c98cbb34e99ce127273c30f3dce4cf933675cc726140b4dc686afe",
+    "hf_generate.py": "4120f4ce7d6eab5333899076231b5b44b658b613fd08bed731e1d71313ac6211",
+    "pipeline.py": "ece585474357af441207bc48b97706cf4281194f18d28291215a52e9e6fdaebc",
+    "prompts_local.py": "e3c7badd70459ff6273d5295702d16a8cd68f20fd9d2496cb3b2b926688dc065",
+    "runner.py": "f2fbbd42b96575553b575a27a8d9a0fd395d603acadb97f29f6dbf547b349c6f",
+    "scoring.py": "0714c0be5a03daa30fc5c6212e496bb3d3198e04979842b1e9e4fc0edcd66508",
+    "seeds.py": "4fd64b4b2cd07d7ffe423e33bb444059dc8395f9094b847c0862bdc59f19739b"
+  },
+  "data": {
+    "source_gold0_sha256": "69a8dd87a45f07fb3ed9b804917a89db975cd6e488682fc838edca029cc3881f",
+    "0": {
+      "file": "nq-open-20_total_documents_gold_at_0.jsonl.gz",
+      "bytes": 13334384,
+      "sha256": "642846d2ec98ae37c7f5a8cc399404dbe42c935e5d6ea669f9923e8b544ef1a8"
+    },
+    "4": {
+      "file": "nq-open-20_total_documents_gold_at_4.jsonl.gz",
+      "bytes": 13342277,
+      "sha256": "1cc4df28c775fc090e257226caf91db5b1ddb91dc1c1da72c51f5024ca417806"
+    },
+    "9": {
+      "file": "nq-open-20_total_documents_gold_at_9.jsonl.gz",
+      "bytes": 13346320,
+      "sha256": "1cbeb405b4de0859a74603d05b8fe281bee68728d3658b03ce817a966a0027d1"
+    },
+    "14": {
+      "file": "nq-open-20_total_documents_gold_at_14.jsonl.gz",
+      "bytes": 13351130,
+      "sha256": "0512bf61256b153746696ca394a276134c1f707aeea7bc6ed63026be475f5ab5"
+    },
+    "19": {
+      "file": "nq-open-20_total_documents_gold_at_19.jsonl.gz",
+      "bytes": 13350244,
+      "sha256": "62af24131abf1ce824544e286ed54cbebbde5b497e670412cfa90b351f792bb1"
+    }
+  },
+  "decision_rule_PROPOSED_author_must_confirm_before_reading_results": "an effect is called meaningful only if its 95% bootstrap interval excludes zero, it exceeds 5 percentage points, and the corresponding order or position flip rate exceeds the rerun flip rate"
+}
