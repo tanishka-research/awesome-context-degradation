@@ -1,0 +1,14 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1",
+  "pydantic": "2.14.2",
+  "gpu": "Tesla T4",
+  "dtype": "torch.float16",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "max_positions": 32768,
+  "repo_commit": "29b8a6d042ce29abccee3db1a73171a107d7e6af",
+  "generation_config": "GenerationConfig {\n  \"bos_token_id\": 151643,\n  \"do_sample\": true,\n  \"eos_token_id\": [\n    151645,\n    151643\n  ],\n  \"pad_token_id\": 151643,\n  \"repetition_penalty\": 1.05,\n  \"temperature\": 0.7,\n  \"top_k\": 20,\n  \"top_p\": 0.8\n}\n",
+  "driver_info": "driver_version, memory.total [MiB]\n580.82.07, 15360 MiB\n"
+}

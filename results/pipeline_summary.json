@@ -1,0 +1,28 @@
+{
+  "tag": "reduced",
+  "n_dev": 50,
+  "n_eval": 300,
+  "positions": [
+    0,
+    9,
+    19
+  ],
+  "orderings": [
+    "O1"
+  ],
+  "dev": {
+    "closed_book_acc": 0.32,
+    "oracle_acc": 0.92,
+    "o0_pos0_acc": 0.68,
+    "o0_pos9_acc": 0.56,
+    "rerun_pairs": 50,
+    "rerun_correctness_flips": 0,
+    "rerun_identical_outputs": 50,
+    "mean_seconds_per_prompt": 3.5353132,
+    "truncated_prompts": 0
+  },
+  "n_prediction_rows": 2950,
+  "n_pairs": 12,
+  "audit_ok": true,
+  "results_csv": "/content/drive/MyDrive/position_order_run/reduced/results.csv"
+}
